@@ -7,7 +7,7 @@ export default function Home() {
 
   const nextPage = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    router.push("/content");
+    router.push("/confirmation");
   };
 
   return (
