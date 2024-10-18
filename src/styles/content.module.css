@@ -1,0 +1,55 @@
+.customCarousel {
+  width: 100vw;
+}
+
+.customCarousel :global(.slick-dots) {
+  left: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.customCarousel :global(.slick-prev:before),
+.customCarousel :global(.slick-next:before) {
+  display: none;
+}
+
+.customCarousel :global(.slick-prev),
+.customCarousel :global(.slick-next) {
+  display: none;
+}
+
+/* Bolinha Normal/Sem Estar Apertada */
+.customCarousel :global(.slick-dots li button::before) {
+  content: "."; /* Garante que o pseudo-elemento seja renderizado */
+  color: #d70d4f;
+  font-size: 100px;
+  opacity: 1; /* Controla a opacidade para garantir que a cor seja visível */
+}
+
+/* Bolinha Ativada/Apertada */
+.customCarousel :global(.slick-dots li.slick-active button::before) {
+  color: #ffffff;
+}
+
+.card {
+  padding: 2.5rem;
+  margin-left: 1rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselText {
+  font-family: "Aoboshi One";
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 400;
+  margin-left: 8rem;
+  margin-top: 2.3rem;
+}
+
+.carouselImage {
+  width: 18.5rem;
+  height: 25rem;
+  border-radius: 15px;
+}
