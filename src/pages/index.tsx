@@ -31,7 +31,7 @@ export default function Home() {
         <p className={styles.secondText}>
           Para saber se você é, informe alguns
           <br></br>
-          dados📝 abaixo
+          dados📝 abaixo:
         </p>
       </div>
 

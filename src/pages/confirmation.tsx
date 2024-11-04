@@ -20,7 +20,7 @@ export default function Confirmation() {
 
       <div className={styles.textContainer}>
         <p className={styles.firstText}>
-          Sim, você é o amor da vida de Thiago dos
+          Sim, você é o <strong>amor da vida</strong> de Thiago dos
           <br></br>
           Santos Guedes
         </p>

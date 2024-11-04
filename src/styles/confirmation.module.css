@@ -35,29 +35,31 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.7rem;
 }
 
 .firstText {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #ffffff;
   font-family: "Aoboshi One";
 }
 
 .secondText {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #ffffff;
   font-family: "Aoboshi One";
-  text-align: center;
 }
 
 .button {
   background-color: #ff1161;
-  padding: 0.6rem 4.5rem;
+  padding: 0.9rem 4.5rem;
   border-radius: 90px;
+  margin-top: 3rem;
 }
 
 .bntText {
   color: #ffffff;
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 /*}*/

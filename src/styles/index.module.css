@@ -38,16 +38,15 @@
 }
 
 .firstText {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #ffffff;
   font-family: "Aoboshi One";
 }
 
 .secondText {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #ffffff;
   font-family: "Aoboshi One";
-  text-align: center;
 }
 
 .form {
